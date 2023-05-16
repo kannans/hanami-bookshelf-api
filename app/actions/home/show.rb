@@ -6,7 +6,7 @@ module Bookshelf
       class Show < Bookshelf::Action
         def handle(request, response)
           param = request.params[:id]
-          response.body = "Welcome to hanami #{param}"
+          response.body = "Welcome to hanami"
         end
       end
     end
